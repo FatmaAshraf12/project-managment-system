@@ -1,5 +1,5 @@
 import {useQuery} from "@apollo/client";
-import {GET_CLIENTS} from "../queries/clientQueries";
+import {GET_CLIENTS} from "../../queries/clientQueries";
 import ClientRow from "./ClientRow";
 
 const Clients = () => {

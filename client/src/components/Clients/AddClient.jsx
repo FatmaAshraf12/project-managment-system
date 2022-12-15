@@ -1,7 +1,7 @@
 import {useState} from "react";
 import {useMutation} from "@apollo/client";
-import {ADD_CLIENT} from "../mutations/clientMutations";
-import {GET_CLIENTS} from "../queries/clientQueries";
+import {ADD_CLIENT} from "../../mutations/clientMutations";
+import {GET_CLIENTS} from "../../queries/clientQueries";
 
 const AddClient = () => {
   const [name, setName] = useState("");

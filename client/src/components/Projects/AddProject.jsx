@@ -1,9 +1,9 @@
 import {useState} from "react";
 import {useMutation} from "@apollo/client";
-import {ADD_PROJECT} from "../mutations/projectMutations";
-import {GET_PROJECTS} from "../queries/projectQueries";
+import {ADD_PROJECT} from "../../mutations/projectMutations";
+import {GET_PROJECTS} from "../../queries/projectQueries";
 import {useQuery} from "@apollo/client";
-import {GET_CLIENTS} from "../queries/clientQueries";
+import {GET_CLIENTS} from "../../queries/clientQueries";
 
 const AddProject = () => {
   const {loading, error, data} = useQuery(GET_CLIENTS);
